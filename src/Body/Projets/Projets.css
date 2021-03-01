@@ -1,0 +1,69 @@
+.projets{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.projets h2{
+    padding-left: 10px;
+}
+.cercle { 
+    position: absolute;
+    z-index: -1;
+    height: 50px; 
+    width: 50px; 
+    background-color: lightblue;
+    border-radius: 50%; 
+    filter:alpha(opacity=50);/*IE*/
+    -moz-opacity:0.5; /*autres nav*/
+    opacity: 0.5;
+}
+
+.photos img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.photos2{
+    background-color: lightblue;
+}
+
+.photos2 p{
+    height: 40px;
+    padding-top: 12px;
+}
+
+.photos2 i{
+    font-size: 25px;
+    padding-top: 12px;
+}
+
+
+
+.image {
+    display: block;
+    margin: 0 auto;
+  }
+  .image:focus, .image:hover {
+    animation: wobble 1s 1;
+  }
+  
+  @keyframes wobble {
+    25% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-30deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+

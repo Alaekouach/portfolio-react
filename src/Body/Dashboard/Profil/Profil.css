@@ -1,0 +1,15 @@
+.profil{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.formulaire h4{
+    color:lightsalmon;
+}
+
+
+

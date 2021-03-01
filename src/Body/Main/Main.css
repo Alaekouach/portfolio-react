@@ -1,0 +1,45 @@
+.main img{
+    width: 100%;
+    height: 620px;
+}
+
+.main{
+    margin-left: 15px;
+}
+
+.titre{
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.titre small{
+    margin-left: 25px;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.main2 figure i{
+    font-size: 20px;
+    color: lightblue;
+}
+
+.main2 figcaption{
+    text-align: center;
+}
+
+.main2 figure{
+    margin-top: 70px;
+}
+
+
+.main2 small{
+    color: grey;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.7rem;
+}

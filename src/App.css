@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+
+a.current{
+  color:red;
+  box-shadow: 0 3px 3px #ccc;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.sidebar{
+  position: fixed;
+  z-index: 15;
+  width:70px;
+  height: 100%;
+  top:0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar li{
+  margin-right: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rotate-text {
+  transform: rotate(270deg);
+  margin-top: 570px;
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.cercle2 { 
+  position: absolute;
+  z-index: -1;
+  height: 60px; 
+  width: 60px; 
+  background-color: lightskyblue;
+  border-radius: 50%; 
+  filter:alpha(opacity=50);/*IE*/
+  -moz-opacity:0.5; /*autres nav*/
+  opacity: 0.5;
+  top:0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cercle2 i{
+  font-size:30px;
+}
+
+
+
+.menu {
+  border-radius: 8px;
+  top: 60px;
+  right: 0;
+  width: 175px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #dddddd;
+}
+
+.menu li:hover {
+  width: 100%;
+  background-color: rgb(192, 184, 184);
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333333;
+  padding: 15px 20px;
+  display: block;
 }

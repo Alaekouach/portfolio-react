@@ -1,0 +1,72 @@
+.apropos{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.apropos h2{
+    padding-left: 15px;
+}
+
+
+.cercle { 
+    position: absolute;
+    z-index: -1;
+    height: 50px; 
+    width: 50px; 
+    background-color: lightblue;
+    border-radius: 50%; 
+    filter:alpha(opacity=50);/*IE*/
+    -moz-opacity:0.5; /*autres nav*/
+    opacity: 0.5;
+}
+
+
+
+.apropos img{
+    width: 350px;
+    height: 450px;
+   
+}
+
+.apropos span{
+   
+    color: #D2691E;
+    font-weight: bolder;
+}
+
+.carre i{
+    font-size: 25px;
+}
+
+.carre div{
+    width: 120px;
+    height: 100px;
+    background-color:#ACD5CA;
+}
+
+.txt-bio{
+    padding-top: 10px;
+}
+
+.txt-bio h2{
+    color: lightblue;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+.font2{
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
+
+.font3{
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}

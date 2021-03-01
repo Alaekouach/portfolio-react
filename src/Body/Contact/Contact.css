@@ -1,0 +1,37 @@
+.contact{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.contact h2{
+    padding-left: 10px;
+}
+.cercle { 
+    position: absolute;
+    z-index: -1;
+    height: 50px; 
+    width: 50px; 
+    background-color: lightblue;
+    border-radius: 50%; 
+    filter:alpha(opacity=50);/*IE*/
+    -moz-opacity:0.5; /*autres nav*/
+    opacity: 0.5;
+}
+
+.contact figure i{
+    font-size: 20px;
+    color: lightblue;
+}
+
+.contact figure{
+    margin-top: 30px;
+}
+
+
+.contact small{
+    color: grey;
+}

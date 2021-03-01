@@ -1,0 +1,36 @@
+.mesprojets{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.formulaire h4{
+    color:lightsalmon;
+    text-transform:capitalize;
+}
+
+.supp{ 
+    position: absolute;
+    z-index: 1;    
+    border-radius: 50%; 
+    color:black;
+    margin-left: 55px;    
+    margin-top: -6px;
+}
+
+.supp:hover{
+   cursor: pointer; 
+   color: rgb(189, 147, 147);
+   font-size: larger;
+}
+
+
+.sup:hover{
+    cursor: pointer; 
+    color: rgb(189, 147, 147);
+    font-size: larger;
+ }
+ 

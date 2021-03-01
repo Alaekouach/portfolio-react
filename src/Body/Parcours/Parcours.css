@@ -1,0 +1,52 @@
+.parcours{
+    padding-left: 85px;
+    position: relative; 
+    z-index: 10;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.parcours h2{
+    padding-left: 10px;
+}
+
+
+.cercle { 
+    position: absolute;
+    z-index: -1;
+    height: 50px; 
+    width: 50px; 
+    background-color: lightblue;
+    border-radius: 50%; 
+    filter:alpha(opacity=50);/*IE*/
+    -moz-opacity:0.5; /*autres nav*/
+    opacity: 0.5;
+}
+
+.ligne_verticale
+{
+    width:5px;
+    border-left:2px solid gray;
+    height:auto;
+}
+
+.petit_cercle{
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 3px;
+    height: 12px; 
+    width: 12px; 
+    background-color: lightblue;
+    border-radius: 50%; 
+}
+
+.forma{
+    color: rgb(42, 130, 218);
+}
+
+
+
+.description-forma{
+    color:rgb(133, 149, 165);
+}
